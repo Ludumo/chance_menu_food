@@ -1,0 +1,6 @@
+﻿@font-face {
+  font-family: 'Pontano Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMncY.ttf) format('truetype');
+}

@@ -1,0 +1,220 @@
+@font-face {
+	font-family: 'Segoe UI';
+	src        : url('../assets/fonts/SegoeUI/SegoeUI.woff');
+}
+
+.accordionWrapper {
+	width        : 100%;
+	padding-right: 16px;
+	padding-left : 16px;
+	margin-top   : 10px;
+	box-sizing   : border-box;
+}
+
+.accordionItem {
+	float      : left;
+	display    : block;
+	width      : 100%;
+	box-sizing : border-box;
+	font-family: 'Open-sans', Arial, sans-serif;
+}
+
+.accordionItemHeading {
+	cursor       : pointer;
+	margin       : 0px 0px 10px 0px;
+	padding      : 10px;
+	color        : white;
+	width        : 100%;
+	border-radius: 3px;
+	box-sizing   : border-box;
+}
+
+.accordionItemHeading span {
+	float    : right;
+	font-size: 25px;
+}
+
+.close .accordionItemContent {
+	height    : 0px;
+	transition: height 1s ease-out;
+	transform : scaleY(0);
+	float     : left;
+	display   : block;
+}
+
+.open .accordionItemContent {
+	padding         : 10px 0px 10px 10px;
+	background-color: #f0f1f1;
+	border          : 1px solid #ddd;
+	width           : 100%;
+	transform       : scaleY(1);
+	transform-origin: top;
+	transition      : transform 0.4s ease;
+	box-sizing      : border-box;
+	margin-top      : 5px;
+	display         : flex;
+	align-items     : center;
+	justify-content : space-between;
+	padding-right   : 10px;
+	background      : #9E4D4D;
+	color           : white;
+}
+
+.open .accordionItemHeading {
+	margin                    : 0px;
+	border-top-left-radius    : 3px;
+	border-top-right-radius   : 3px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius : 0px;
+	color                     : #fe6f61;
+}
+
+.card[_ngcontent-isb-c13]>.category-title[_ngcontent-isb-c13]>div[_ngcontent-isb-c13] {
+	margin-bottom: auto;
+	margin-right : auto;
+	margin-top   : auto;
+	text-align   : left;
+	width        : -webkit-fit-content;
+	width        : -moz-fit-content;
+	width        : fit-content;
+	word-break   : break-word;
+}
+
+.card[_ngcontent-isb-c13]>.category-title[_ngcontent-isb-c13] {
+	cursor: pointer;
+}
+
+.pl-2,
+.px-2 {
+	padding-left: 0.5rem !important;
+}
+
+.pr-2,
+.px-2 {
+	padding-right: 0.5rem !important;
+}
+
+.pb-1,
+.py-1 {
+	padding-bottom: 0.25rem !important;
+}
+
+.pt-1,
+.py-1 {
+	padding-top: 0.25rem !important;
+}
+
+.d-flex {
+	display: flex !important;
+}
+
+.accordion>.card:not(:last-of-type) {
+	border-bottom             : 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius : 0;
+}
+
+.card[_ngcontent-isb-c13] {
+	background-color: var(--main-background-color);
+	border          : 0;
+	border-radius   : 4px !important;
+	margin-top      : 6px;
+}
+
+.accordion>.card {
+	overflow: hidden;
+}
+
+.mt-2,
+.my-2 {
+	margin-top: 0.5rem !important;
+}
+
+.headline {
+	font-size         : 16px;
+	-webkit-line-clamp: 2;
+	line-height       : 1.5;
+	font-weight       : bold;
+	display           : flex;
+	justify-content   : space-between;
+	align-items       : center;
+}
+
+.item-link-wrap {
+	text-decoration: none;
+	display        : flex;
+	align-items    : center;
+	width          : 100%;
+}
+
+.multiline-ellipsis-title[_ngcontent-qki-c12] {
+	font-size         : 14px;
+	-webkit-line-clamp: 2;
+	line-height       : 1.5;
+	max-height        : 42px;
+}
+
+.card[_ngcontent-qki-c13]>.category-title[_ngcontent-qki-c13]>div[_ngcontent-qki-c13] {
+	margin-bottom: auto;
+	margin-right : auto;
+	margin-top   : auto;
+	text-align   : left;
+	width        : -webkit-fit-content;
+	width        : -moz-fit-content;
+	width        : fit-content;
+	word-break   : break-word;
+}
+
+.multiline-ellipsis-title[_ngcontent-qki-c12] {
+	font-size         : 14px;
+	-webkit-line-clamp: 2;
+	line-height       : 1.5;
+	max-height        : 42px;
+}
+
+.snacks_cursor-none {
+	cursor: default;
+}
+
+p {
+	margin-top    : 0;
+	margin-bottom : 1rem;
+	display       : flex;
+	align-items   : center;
+	margin-bottom : 0;
+	display       : flex;
+	flex-direction: column;
+	align-items   : baseline;
+}
+
+.happy-hours-name-drink-block {
+	display       : flex;
+	flex-direction: column;
+}
+
+.drink-headline-block {
+	display       : flex;
+	flex-direction: column;
+}
+
+
+@media screen and (max-width:450px) {
+	.drink-content {
+		display        : flex;
+		width          : 100%;
+		justify-content: space-between;
+		padding-right  : 0px;
+		color          : white;
+	}
+
+	.drink-describe-text {
+		padding-right: 20px;
+	}
+
+	.content-coctail {}
+
+	.drink-headline-block {
+		display       : flex;
+		flex-direction: column;
+	}
+}
