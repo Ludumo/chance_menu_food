@@ -1,0 +1,23 @@
+{
+  "name": "chance_menu_food",
+  "version": "1.0.0",
+  "description": "Created a website and Menu for Client Cafe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ludumo/chance_menu_food.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ludumo/chance_menu_food/issues"
+  },
+  "homepage": "https://github.com/Ludumo/chance_menu_food#readme",
+  "devDependencies": {
+    "sass": "^1.83.4"
+  }
+}
